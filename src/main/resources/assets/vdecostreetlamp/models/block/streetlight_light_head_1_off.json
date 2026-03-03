@@ -1,0 +1,39 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "vdecostreetlamp:block/street_light_head_1_off",
+		"particle": "vdecostreetlamp:block/street_light_head_1_off"
+	},
+	"elements": [
+		{
+			"from": [3.8, 16.95625, 0.8531],
+			"to": [11.2, 18.93125, 15.1469],
+			"light_emission": 0,
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 17.15625, -0.9469]},
+			"faces": {
+				"north": {"uv": [4.5, 2.5, 6.25, 3], "texture": "#0"},
+				"east": {"uv": [4.5, 0.5, 8, 1], "texture": "#0"},
+				"south": {"uv": [4.5, 3, 6.25, 3.5], "texture": "#0"},
+				"west": {"uv": [4.5, 1, 8, 1.5], "texture": "#0"},
+				"up": {"uv": [1.75, 7.5, 0, 4], "texture": "#0"},
+				"down": {"uv": [3.5, 4, 1.75, 7.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2.8, 18.95625, -0.1469],
+			"to": [12.2, 20.93125, 16.1469],
+			"light_emission": 0,
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 19.15625, -0.9469]},
+			"faces": {
+				"north": {"uv": [4.5, 1.5, 6.75, 2], "texture": "#0"},
+				"east": {"uv": [3.5, 4, 7.5, 4.5], "texture": "#0"},
+				"south": {"uv": [4.5, 2, 6.75, 2.5], "texture": "#0"},
+				"west": {"uv": [4.5, 0, 8.5, 0.5], "texture": "#0"},
+				"up": {"uv": [2.25, 4, 0, 0], "texture": "#0"},
+				"down": {"uv": [4.5, 0, 2.25, 4], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "vdecostreetlamp:block/streetlight_pole",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "vdecostreetlamp:block/streetlight_pole"
+    },
+    "facing=south": {
+      "model": "vdecostreetlamp:block/streetlight_pole",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "vdecostreetlamp:block/streetlight_pole",
+      "y": 270
+    }
+  }
+}
