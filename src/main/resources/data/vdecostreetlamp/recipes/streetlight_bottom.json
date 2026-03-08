@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "BBB",
-    "BIB",
+    "   ",
+    " I ",
     "III"
   ],
   "key": {
     "I": {
       "item": "minecraft:iron_ingot"
-    },
-    "B": {
-      "item": "minecraft:black_concrete"
     }
   },
   "result": {
     "item": "vdecostreetlamp:streetlight_bottom",
-    "count": 1
+    "count": 4
   }
 }
