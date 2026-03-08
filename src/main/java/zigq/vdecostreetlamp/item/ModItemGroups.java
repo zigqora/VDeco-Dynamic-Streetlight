@@ -13,7 +13,7 @@ import zigq.vdecostreetlamp.block.ModBlocks;
 public class ModItemGroups {
 
     public static final ItemGroup STREET_LIGHTS_AND_LAMPS = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(VDecoStreetLamp.MOD_ID, "2"),
+            new Identifier(VDecoStreetLamp.MOD_ID, "1"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup_test.streetlights_and_lamps"))
                     .icon(() -> new ItemStack(ModBlocks.STREETLIGHT_BOTTOM)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.STREETLIGHT_BOTTOM);
@@ -21,11 +21,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STREETLIGHT_SUPPORT);
                         entries.add(ModBlocks.STREETLIGHT_POLE_HORIZONTAL);
                         entries.add(ModBlocks.STREETLIGHT_LIGHT_HEAD_1);
+                        entries.add(ModBlocks.TRAFFIC_SIGNAL);
+                        entries.add(ModBlocks.TRAFFIC_SIGNAL_HORIZONTAL);
+
+                        // Redstone Variants
+                        entries.add(ModBlocks.REDSTONE_STREETLIGHT_LIGHT_HEAD_1);
+                        
+                        // Tools and Other Items
+                        entries.add(ModBlocks.REMOTE_LEVER);
                     }).build());
 
-
-
     public static void registerItemGroups() {
-        VDecoStreetLamp.LOGGER.info("Registering Mod Item Groups for " + VDecoStreetLamp.MOD_ID);
     }
 }

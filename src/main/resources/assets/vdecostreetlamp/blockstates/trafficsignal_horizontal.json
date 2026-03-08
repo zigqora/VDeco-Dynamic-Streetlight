@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "facing=north,green=false,red=false,yellow=false": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_000"
+    },
+    "facing=north,green=true,red=false,yellow=false": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_001"
+    },
+    "facing=north,green=false,red=false,yellow=true": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_010"
+    },
+    "facing=north,green=true,red=false,yellow=true": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_011"
+    },
+    "facing=north,green=false,red=true,yellow=false": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_100"
+    },
+    "facing=north,green=true,red=true,yellow=false": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_101"
+    },
+    "facing=north,green=false,red=true,yellow=true": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_110"
+    },
+    "facing=north,green=true,red=true,yellow=true": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_111"
+    },
+    "facing=east,green=false,red=false,yellow=false": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_000",
+      "y": 90
+    },
+    "facing=east,green=true,red=false,yellow=false": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_001",
+      "y": 90
+    },
+    "facing=east,green=false,red=false,yellow=true": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_010",
+      "y": 90
+    },
+    "facing=east,green=true,red=false,yellow=true": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_011",
+      "y": 90
+    },
+    "facing=east,green=false,red=true,yellow=false": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_100",
+      "y": 90
+    },
+    "facing=east,green=true,red=true,yellow=false": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_101",
+      "y": 90
+    },
+    "facing=east,green=false,red=true,yellow=true": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_110",
+      "y": 90
+    },
+    "facing=east,green=true,red=true,yellow=true": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_111",
+      "y": 90
+    },
+    "facing=south,green=false,red=false,yellow=false": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_000",
+      "y": 180
+    },
+    "facing=south,green=true,red=false,yellow=false": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_001",
+      "y": 180
+    },
+    "facing=south,green=false,red=false,yellow=true": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_010",
+      "y": 180
+    },
+    "facing=south,green=true,red=false,yellow=true": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_011",
+      "y": 180
+    },
+    "facing=south,green=false,red=true,yellow=false": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_100",
+      "y": 180
+    },
+    "facing=south,green=true,red=true,yellow=false": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_101",
+      "y": 180
+    },
+    "facing=south,green=false,red=true,yellow=true": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_110",
+      "y": 180
+    },
+    "facing=south,green=true,red=true,yellow=true": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_111",
+      "y": 180
+    },
+    "facing=west,green=false,red=false,yellow=false": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_000",
+      "y": 270
+    },
+    "facing=west,green=true,red=false,yellow=false": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_001",
+      "y": 270
+    },
+    "facing=west,green=false,red=false,yellow=true": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_010",
+      "y": 270
+    },
+    "facing=west,green=true,red=false,yellow=true": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_011",
+      "y": 270
+    },
+    "facing=west,green=false,red=true,yellow=false": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_100",
+      "y": 270
+    },
+    "facing=west,green=true,red=true,yellow=false": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_101",
+      "y": 270
+    },
+    "facing=west,green=false,red=true,yellow=true": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_110",
+      "y": 270
+    },
+    "facing=west,green=true,red=true,yellow=true": {
+      "model": "vdecostreetlamp:block/trafficsignal_horizontal_111",
+      "y": 270
+    }
+  }
+}

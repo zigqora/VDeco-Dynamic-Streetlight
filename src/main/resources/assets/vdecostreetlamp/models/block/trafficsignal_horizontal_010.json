@@ -1,0 +1,8 @@
+{
+    "parent": "vdecostreetlamp:block/trafficsignal_horizontal",
+    "textures": {
+        "1": "vdecostreetlamp:block/trafficsignal_default",
+        "3": "vdecostreetlamp:block/trafficsignal_yellow",
+        "2": "vdecostreetlamp:block/trafficsignal_default"
+    }
+}

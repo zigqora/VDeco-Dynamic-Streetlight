@@ -1,14 +1,14 @@
 {
-  "block.vdecostreetlamp.ruby_block": "Ruby Block",
-  "block.vdecostreetlamp.chair": "Chair",
-  "block.vdecostreetlamp.gaminglaptop": "Gaming Laptop",
-  "block.vdecostreetlamp.mobilephone": "Mobile Phone",
-  "block.vdecostreetlamp.smartphone": "Smart Phone",
   "block.vdecostreetlamp.streetlight_bottom": "Street Light Bottom",
   "block.vdecostreetlamp.streetlight_pole": "Street Light Pole",
   "block.vdecostreetlamp.streetlight_support": "Street Light Support",
   "block.vdecostreetlamp.streetlight_pole_horizontal": "Street Light Pole Horizontal",
   "block.vdecostreetlamp.streetlight_light_head_1": "Street Light Head",
-
-  "itemgroup_test.streetlights_and_lamps": "Road and Infrastructure"
+  "block.vdecostreetlamp.redstone_streetlight_light_head_1": "Redstone Street Light Head",
+  "block.vdecostreetlamp.trafficsignal": "Traffic Signal",
+  "block.vdecostreetlamp.trafficsignal_horizontal": "Horizontal Traffic Signal",
+  "itemgroup_test.streetlights_and_lamps": "Dynamic Streetlamps",
+  "block.vdecostreetlamp.remote_lever": "Remote Lever",
+  "block.vdecostreetlamp.remote_lever.success": "Toggled %s remote streetlamps!",
+  "block.vdecostreetlamp.remote_lever.none_found": "No remote streetlamps found in range."
 }
