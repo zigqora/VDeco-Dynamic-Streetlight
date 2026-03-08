@@ -2,18 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "GGG",
-    " L ",
-    " I "
+    "GDG",
+    "GGG"
   ],
   "key": {
     "G": {
       "item": "minecraft:glass_pane"
     },
-    "L": {
-      "item": "minecraft:redstone_lamp"
-    },
-    "I": {
-      "item": "minecraft:iron_ingot"
+    "D": {
+      "item": "minecraft:redstone"
     }
   },
   "result": {
