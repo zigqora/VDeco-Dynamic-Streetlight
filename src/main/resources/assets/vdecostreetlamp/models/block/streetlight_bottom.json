@@ -31,5 +31,18 @@
 				"down": {"uv": [11, 8, 9, 10], "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -1, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 2.75, 0],
+			"scale": [1, 0.68, 1]
+		},
+		"head": {
+			"translation": [0, 14, 0]
+		}
+	}
 }

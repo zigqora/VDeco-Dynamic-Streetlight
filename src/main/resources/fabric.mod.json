@@ -2,17 +2,16 @@
 	"schemaVersion": 1,
 	"id": "vdecostreetlamp",
 	"version": "${version}",
-	"name": "VDecoStreetLamp",
+	"name": "DynamicStreetlights",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"zigqora"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://x.com/zigqora",
+		"sources": "https://github.com/zigqora/VDeco-Dynamic-Streetlight"
 	},
 	"license": "ARR",
-
 	"icon": "assets/vdecostreetlamp/icon.png",
 	"environment": "*",
 	"entrypoints": {

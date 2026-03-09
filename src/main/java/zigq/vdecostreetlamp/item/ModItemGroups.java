@@ -21,12 +21,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STREETLIGHT_SUPPORT);
                         entries.add(ModBlocks.STREETLIGHT_POLE_HORIZONTAL);
                         entries.add(ModBlocks.STREETLIGHT_LIGHT_HEAD_1);
-                        entries.add(ModBlocks.TRAFFIC_SIGNAL);
-                        entries.add(ModBlocks.TRAFFIC_SIGNAL_HORIZONTAL);
+                        // entries.add(ModBlocks.TRAFFIC_SIGNAL);
+                        // entries.add(ModBlocks.TRAFFIC_SIGNAL_HORIZONTAL);
 
                         // Redstone Variants
                         entries.add(ModBlocks.REDSTONE_STREETLIGHT_LIGHT_HEAD_1);
-                        
+
                         // Tools and Other Items
                         entries.add(ModBlocks.REMOTE_LEVER);
                     }).build());
