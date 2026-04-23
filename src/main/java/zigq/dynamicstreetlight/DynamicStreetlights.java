@@ -4,7 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import zigq.dynamicstreetlight.block.ModBlocks;
+import zigq.dynamicstreetlight.block.StreetlightBlocks;
 import zigq.dynamicstreetlight.item.ModItemGroups;
 //import zigq.dynamicstreetlight.network.ModMessages;
 import zigq.dynamicstreetlight.screen.ModScreenHandlers;
@@ -16,12 +16,10 @@ public class DynamicStreetlights implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		StreetlightBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
-		ModBlocks.registerModBlocks();
 		ModBlockEntities.registerBlockEntities();
         ModScreenHandlers.registerScreenHandlers();
         //ModMessages.registerC2SPackets();
 	}
 }
-
-

@@ -1,16 +1,15 @@
 {
-  "block.DynamicStreetlights.streetlight_bottom": "Street Light Bottom",
-  "block.DynamicStreetlights.streetlight_pole": "Street Light Pole",
-  "block.DynamicStreetlights.streetlight_support": "Street Light Support",
-  "block.DynamicStreetlights.streetlight_pole_horizontal": "Street Light Pole Horizontal",
-  "block.DynamicStreetlights.streetlight_light_head_1": "Street Light Head",
-  "block.DynamicStreetlights.redstone_streetlight_light_head_1": "Redstone Street Light Head",
-  "block.DynamicStreetlights.trafficsignal": "Traffic Signal",
-  "block.DynamicStreetlights.trafficsignal_horizontal": "Horizontal Traffic Signal",
+  "block.dynamic_streetlight.streetlight_bottom": "Street Light Bottom",
+  "block.dynamic_streetlight.streetlight_pole": "Street Light Pole",
+  "block.dynamic_streetlight.streetlight_support": "Street Light Support",
+  "block.dynamic_streetlight.streetlight_pole_horizontal": "Street Light Pole Horizontal",
+  "block.dynamic_streetlight.streetlight_light_head_1": "Street Light Head",
+  "block.dynamic_streetlight.redstone_streetlight_light_head_1": "Redstone Street Light Head",
+  "block.dynamic_streetlight.trafficsignal": "Traffic Signal",
+  "block.dynamic_streetlight.trafficsignal_horizontal": "Horizontal Traffic Signal",
   "itemgroup_test.streetlights_and_lamps": "Dynamic Streetlight",
-  "block.DynamicStreetlights.remote_lever": "Remote Lever",
-  "block.DynamicStreetlights.remote_lever.success": "Toggled %s remote streetlamps!",
-  "block.DynamicStreetlights.remote_lever.none_found": "No remote streetlamps found in range."
+  "item.dynamic_streetlight.remote_lever": "Remote Lever",
+  "block.dynamic_streetlight.remote_lever": "Remote Lever Block",
+  "message.dynamic_streetlight.remote_lever.success": "Toggled %s remote streetlamps!",
+  "message.dynamic_streetlight.remote_lever.none_found": "No remote streetlamps found in range."
 }
-
-

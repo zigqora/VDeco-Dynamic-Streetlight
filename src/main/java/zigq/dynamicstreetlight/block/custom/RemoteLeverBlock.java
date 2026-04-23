@@ -50,9 +50,9 @@ public class RemoteLeverBlock extends LeverBlock {
             int toggledCount = scanAndToggleLamps(world, pos, newState.get(POWERED));
 
             if (toggledCount > 0) {
-                player.sendMessage(Text.translatable("block.DynamicStreetlights.remote_lever.success", toggledCount), true);
+                player.sendMessage(Text.translatable("message.dynamic_streetlight.remote_lever.success", toggledCount), true);
             } else {
-                player.sendMessage(Text.translatable("block.DynamicStreetlights.remote_lever.none_found"), true);
+                player.sendMessage(Text.translatable("message.dynamic_streetlight.remote_lever.none_found"), true);
             }
 
             return ActionResult.CONSUME;
