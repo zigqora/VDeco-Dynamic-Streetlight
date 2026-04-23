@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dynamic_streetlight:redstone_streetlight_light_head_1",
+      "dynamic_streetlight:remote_lever",
+      "dynamic_streetlight:streetlight_bottom",
+      "dynamic_streetlight:streetlight_light_head_1",
+      "dynamic_streetlight:streetlight_pole",
+      "dynamic_streetlight:streetlight_pole_horizontal",
+      "dynamic_streetlight:streetlight_support"
+      // "dynamic_streetlight:trafficsignal"
+      // "dynamic_streetlight:trafficsignal_horizontal"
+    ]
+  },
+  "criteria": {
+    "has_iron_or_redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot",
+              "minecraft:iron_block",
+              "minecraft:redstone",
+              "minecraft:redstone_block"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dynamic_streetlight:streetlight_light_head_1"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_iron_or_redstone",
+      "has_the_recipe"
+    ]
+  ]
+}
+
+

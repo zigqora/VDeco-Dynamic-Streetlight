@@ -1,0 +1,8 @@
+{
+    "parent": "dynamic_streetlight:block/trafficsignal_horizontal",
+    "textures": {
+        "1": "dynamic_streetlight:block/trafficsignal_default",
+        "3": "dynamic_streetlight:block/trafficsignal_yellow",
+        "2": "dynamic_streetlight:block/trafficsignal_default"
+    }
+}

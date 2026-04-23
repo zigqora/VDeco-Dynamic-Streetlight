@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "dynamic_streetlight",
+  "version": "${version}",
+  "name": "Dynamic Streetlights",
+  "description": "Dynamic streetlighting for your Minecraft world.",
+  "authors": [
+    "zigqora"
+  ],
+  "contact": {
+    "homepage": "https://x.com/zigqora",
+    "sources": "https://github.com/zigqora/Dynamic-Streetlights"
+  },
+  "license": "ARR",
+  "icon": "assets/dynamic_streetlight/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "zigq.dynamicstreetlight.DynamicStreetlights"
+    ],
+    "client": [
+      "zigq.dynamicstreetlight.DynamicStreetlightsClient"
+    ],
+    "fabric-datagen": [
+      "zigq.dynamicstreetlight.DynamicStreetlightsDataGenerator"
+    ]
+  },
+  "mixins": [
+    "dynamic_streetlight.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
+
+

@@ -1,0 +1,35 @@
+// {
+//   "type": "minecraft:crafting_shaped",
+//   "pattern": [
+//     "RYG",
+//     "DDD",
+//     "IEI"
+//   ],
+//   "key": {
+//     "R": {
+//       "item": "minecraft:red_stained_glass"
+//     },
+//     "Y": {
+//       "item": "minecraft:yellow_stained_glass"
+//     },
+//     "G": {
+//       "item": "minecraft:green_stained_glass"
+//     },
+//     "D": {
+//       "item": "minecraft:glowstone_dust"
+//     },
+//     "I": {
+//       "item": "minecraft:iron_ingot"
+//     },
+//     "E": {
+//       "item": "minecraft:redstone"
+//     }
+//   },
+//   "result": {
+//     "item": "dynamic_streetlight:trafficsignal",
+//     "count": 4
+//   },
+//   "show_notification": true
+// }
+
+
