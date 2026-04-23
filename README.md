@@ -3,6 +3,8 @@ A Minecraft mod that adds dynamic, automated streetlamps to your world.
 ## Feature
 - Automated on/off functionality
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P41UO8Y9)
+
 ## License
 
 Copyright (c) 2026 zigqora
