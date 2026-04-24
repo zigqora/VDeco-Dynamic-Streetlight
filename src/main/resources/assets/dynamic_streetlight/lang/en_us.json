@@ -11,5 +11,5 @@
   "item.dynamic_streetlight.remote_lever": "Remote Lever",
   "block.dynamic_streetlight.remote_lever": "Remote Lever Block",
   "message.dynamic_streetlight.remote_lever.success": "Toggled %s remote streetlamps!",
-  "message.dynamic_streetlight.remote_lever.none_found": "No remote streetlamps found in range."
+  "message.dynamic_streetlight.remote_lever.none_found": "No remote streetlights found in range."
 }
